@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: student
+  datasource:
+    url: jdbc:mysql://172.25.187.240:3306/student_mgr
+    username: root
+    password: mypass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9091
